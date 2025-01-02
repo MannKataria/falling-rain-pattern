@@ -1,0 +1,31 @@
+.rainContainer {
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+  position: relative;
+  top: 0;
+  left: 0;
+  width: calc((2.5rem + 0.2rem) * 20);
+  height: calc((2.5rem + 0.2rem) * 15);
+  background-color: black;
+  border-radius: 0.2rem;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.rainRow {
+  display: flex;
+  flex-direction: row;
+}
+.rainCell {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.1rem;
+  border: 0.1rem solid gray;
+  position: relative;
+  top: 0;
+  left: 0;
+  color: #0f0;
+}
