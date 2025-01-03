@@ -1,0 +1,92 @@
+html,
+body {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gridOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1a1a1d;
+  background-image: url(../../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gridInnerContainer {
+  padding: 5rem 3rem;
+  border: 3px solid white;
+  background-color: black;
+  background-color: #1a1a1d;
+  border-radius: 1rem;
+  border-top: 5px solid cyan;
+  border-left: 5px solid cyan;
+  border-bottom: 5px solid rgb(255, 0, 170);
+  border-right: 5px solid rgb(255, 0, 170);
+  box-shadow: 5px 5px 20px 4px rgb(255, 0, 170), -5px -5px 20px 4px cyan;
+}
+
+.gridInput {
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.heading {
+  color: #fff;
+  font-size: 2.5em;
+  font-family: "Rajdhani", sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: #fff !important;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: #2979ff;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .gridOuterContainer {
+    height: 100%;
+  }
+
+  .gridInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
